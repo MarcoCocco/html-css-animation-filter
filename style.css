@@ -119,7 +119,20 @@
 
 .ex-10-icon {
     font-size: 60px;
+
+    animation: loading-ring 1.2s linear infinite;
 }
+
+@keyframes loading-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* fine ex 10 */
 
 .ex-11-icon {
     font-size: 60px;
