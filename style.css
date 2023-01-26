@@ -206,3 +206,41 @@ animation: loading-ring3 1.2s linear infinite;
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white {
+    animation: topAnimation 3s linear infinite;
+}
+
+@keyframes topAnimation {
+    0% {
+        left: 5%;
+    }
+
+    50% {
+        left: 65%;
+    }
+
+    100% {
+        left: 5%
+    }
+}
+
+.ex-12-bottom-white {
+    animation: bottomAnimation 3s linear infinite;
+}
+
+@keyframes bottomAnimation {
+    0% {
+        right: 5%;
+    }
+
+    50% {
+        right: 65%;
+    }
+
+    100% {
+        right: 5%
+    }
+}
+/* fine ex 12 */
+
