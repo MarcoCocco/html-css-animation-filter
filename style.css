@@ -42,7 +42,14 @@
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: opacity 2s;
 }
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+/* fine ex 4 */
 
 .ex-5-square {
     margin: 20px;
