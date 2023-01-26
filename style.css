@@ -9,6 +9,7 @@
 .ex-1-square:hover {
     background-color: red;
 }
+
 /* fine ex 1 */
 
 
@@ -23,6 +24,7 @@
 .ex-2-square:active {
     width: 400px;
 }
+
 /* fine ex 2 */
 
 .ex-3-square {
@@ -36,6 +38,7 @@
 .ex-3-square:hover {
     border-radius: 50%;
 }
+
 /* fine ex 3 */
 
 .ex-4-square {
@@ -49,6 +52,7 @@
 .ex-4-square:hover {
     opacity: 0;
 }
+
 /* fine ex 4 */
 
 .ex-5-square {
@@ -56,7 +60,21 @@
     width: 60px;
     height: 60px;
     background: red;
+
+    transition: all 1s;
+    transform: scale 2s;
 }
+
+.ex-5-square:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.ex-5-square:active {
+    width: 40px;
+    height: 40px;
+}
+/* fine ex 5 */
 
 .ex-6-img,
 .ex-7-img,
