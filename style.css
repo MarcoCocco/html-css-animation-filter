@@ -16,7 +16,14 @@
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: width 2s;
 }
+
+.ex-2-square:active {
+    width: 400px;
+}
+/* fine ex 2 */
 
 .ex-3-square {
     width: 100px;
